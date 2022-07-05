@@ -71,7 +71,7 @@ p {
 header {
   height: 100vh;
   text-align: center;
-  background-image: url("/assets/img/fireService.jpg");
+  background-image: url("../img/fireService.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
