@@ -171,15 +171,18 @@ header {
 }
 
 .treatment__item {
-  background-color: #e0a86d59;
+  background-color: #ddc3a525;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .family__item {
-  background-color: #e0a86d59;
+  background-color: #ddc3a525;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .happy__item {
-  background-color: #e0a86d59;
+  background-color: #ddc3a525;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /* donation planning Section End*/
