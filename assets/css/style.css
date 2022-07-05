@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+  padding-top: 240px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 150px;
+  text-align: center;
+  color: #201e20;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: #0000006d;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 169px;
+  height: 40px;
+  outline: none;
+  text-transform: uppercase;
+  background-color: #e0a96d;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #201e20;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Header Content Start */
+
+header {
+  height: 100vh;
+  text-align: center;
+  background-image: url("/assets/img/fireService.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner__content {
+  height: 100vh;
+  align-self: center;
+  background-color: #000000d9;
+}
+
+.header__description {
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.653);
+}
+
+.header__btn {
+  border: none;
+}
+
+/* Header Content End */
+
+/* Donation Section Start */
+
+.donation__amount {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.donation__amount span {
+  padding: 30px 30px;
+  background-color: #ddc3a525;
+  margin-right: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #201e20cd;
+  font-weight: 700;
+}
+
+#thousand {
+  border: 2px solid #201e20;
+  background-color: #201e2010;
+}
+
+#donation__section input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  border-color: #0000002d;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.donate__bigAmount {
+  text-align: center;
+}
+
+.donation__btn {
+  margin-top: 25px;
+}
+/* Donation Section End */
+
+/* donation planning Section Start*/
+
+.planning__description {
+  margin-bottom: 50px;
+}
+.planning__process {
+  display: flex;
+  justify-content: space-around;
+}
+
+.process__item {
+  width: 28%;
+  padding: 50px 25px;
+  border-radius: 10px;
+}
+
+.process__item p {
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+.process__item img {
+  width: 50px;
+  height: 50px;
+}
+
+.process__item p {
+  color: #0000008b;
+}
+
+.treatment__item {
+  background-color: #e0a86d59;
+}
+
+.family__item {
+  background-color: #e0a86d59;
+}
+
+.happy__item {
+  background-color: #e0a86d59;
+}
+
+/* donation planning Section End*/
+
+/* Update Section Start */
+#update__section {
+  margin-bottom: 100px;
+}
+.update__description {
+  margin-bottom: 50px;
+}
+.get__update {
+  width: 900px;
+  text-align: center;
+  background-color: #ddc3a53a;
+  position: relative;
+  margin: 0 auto;
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.get__update input {
+  width: 300px;
+  height: 40px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #6c6c6c29;
+  margin-right: 0;
+  padding-right: 0;
+  position: relative;
+  outline: none;
+}
+
+.update__btn {
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  left: -6px;
+  position: relative;
+  outline: none;
+}
