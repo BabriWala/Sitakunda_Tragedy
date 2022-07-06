@@ -1,16 +1,25 @@
-- lekha change kora jabe
-- kono obhostatei place holder takbena
-- onno sobi o dewa jabe
-- english e hobe
-- taka o dewa jabe
-- footer dite hobe
-- tran related website hobe
-- google fonts
-- jekhane sekhane id dewa jabe
-- alada kisu akta korte hobe
+* Same Website
+* boro lekha takbe
+* coto lekha takbe
+* place holder text takbena
+* akta image hoilei hobe
+* common color ar specific color
+* border niye matha betha nei
+* button
+* donate plan korte hobe
+* icon 
+* title
+* description takbe
+* footer takbe
+* css responsive, libary framework use kora jabena
+* tran related
 
-- kono obhostatei placeholder text takbena
 
-- google font use
-- akta part
-- subscirbe
+* google fonts
+* update field
+* akta part korte hobe new
+* meaningful name
+* class use kortsi kina
+
+
+Live Site Link: https://babriwala.github.io/Sitakunda_Tragedy/
