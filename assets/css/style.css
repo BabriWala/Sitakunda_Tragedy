@@ -37,7 +37,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-h3{
+h3 {
   font-size: 30px;
   text-align: center;
   color: #fff;
@@ -60,7 +60,7 @@ p {
 }
 
 .btn {
-  width: 169px;
+  width: 200px;
   height: 40px;
   outline: none;
   text-transform: uppercase;
@@ -167,56 +167,86 @@ header {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.process__item p {
-  margin-bottom: 0;
-  text-align: justify;
-}
-
 .process__item img {
   width: 50px;
   height: 50px;
 }
 
 .process__item p {
+  margin-bottom: 0;
+  text-align: justify;
   color: #0000008b;
 }
 
-
 /* donation planning Section End*/
 
-
 /* Our Experience Section Start */
-#our__experience{
+
+#our__experience {
   margin: 150px 0;
   padding: 50px;
   background-color: #e0a96d;
 }
-.experience{
+
+.experience {
   display: flex;
   justify-content: space-around;
 }
 
-.experience__item h4{
+.experience__item h4 {
   font-size: 30px;
   font-weight: 700;
   color: #201e20;
   text-align: left;
 }
 
-.experience__item p{
+.experience__item p {
   text-align: left;
   color: #201e20a5;
   font-size: 16px;
   font-weight: 500;
 }
 
+/* Our Experience Section End */
+
+/* Sitakunda Tragedy Start */
+
+#sitakunda {
+  display: flex;
+  justify-content: space-around;
+}
+
+#sitakunda img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.sitakunda__information {
+  width: 40%;
+  text-align: center;
+}
+
+.sitakunda__information h2 {
+  margin-top: 20px;
+  color: #201e20;
+}
+
+.sitakunda__information p {
+  text-align: justify;
+}
+
+/* Sitakunda Tragedy End */
+
 /* Update Section Start */
+
 #update__section {
   margin-bottom: 175px;
 }
+
 .update__description {
   margin-bottom: 50px;
 }
+
 .get__update {
   width: 900px;
   text-align: center;
@@ -256,21 +286,27 @@ header {
   position: relative;
   outline: none;
 }
+
 /* Update Section End */
 
-footer{
+/* Footer Section Start */
+
+footer {
   height: 30vh;
   background-color: #201e20;
 }
 
-.footer__description{
+.footer__description {
   margin-bottom: 5px;
 }
 
-.footer__description, .footer__copyright{
+.footer__description,
+.footer__copyright {
   color: rgba(255, 255, 255, 0.378);
 }
 
-.footer__copyright{
+.footer__copyright {
   margin-bottom: 0;
 }
+
+/* Footer Section End */
