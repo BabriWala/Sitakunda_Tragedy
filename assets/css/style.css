@@ -37,6 +37,15 @@ h2 {
   margin-bottom: 20px;
 }
 
+h3{
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
 h4 {
   font-size: 25px;
   margin-bottom: 15px;
@@ -151,9 +160,11 @@ header {
 }
 
 .process__item {
-  width: 28%;
+  width: 25%;
   padding: 50px 25px;
   border-radius: 10px;
+  background-color: #ddc3a525;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .process__item p {
@@ -170,26 +181,12 @@ header {
   color: #0000008b;
 }
 
-.treatment__item {
-  background-color: #ddc3a525;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.family__item {
-  background-color: #ddc3a525;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.happy__item {
-  background-color: #ddc3a525;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
 
 /* donation planning Section End*/
 
 /* Update Section Start */
 #update__section {
-  margin-bottom: 100px;
+  margin-bottom: 175px;
 }
 .update__description {
   margin-bottom: 50px;
@@ -217,7 +214,7 @@ header {
   border-bottom-left-radius: 5px;
   text-align: center;
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   background-color: #6c6c6c29;
   margin-right: 0;
   padding-right: 0;
@@ -229,7 +226,25 @@ header {
   border: none;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  left: -6px;
+  left: -7px;
   position: relative;
   outline: none;
+}
+/* Update Section End */
+
+footer{
+  height: 30vh;
+  background-color: #201e20;
+}
+
+.footer__description{
+  margin-bottom: 5px;
+}
+
+.footer__description, .footer__copyright{
+  color: rgba(255, 255, 255, 0.378);
+}
+
+.footer__copyright{
+  margin-bottom: 0;
 }
